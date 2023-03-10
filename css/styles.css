@@ -1,3 +1,67 @@
-body {
-  font-family: "Roboto"; sans-relif;
+.body {
+  font-family: "Roboto"; sans-serif; 
+ color: #FFFFFF;
+}
+.header-logo-web{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+color: #4D5AE5;
+text-transform: uppercase;
+}
+.header-logo-studio {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header {
+}
+.header-nav {
+}
+.header-link {width: 48px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2E2F42;
+}
+.header-address {
+}
+.head-mail {
+}
+.header-tel {
+}
+.main {
+}
+.main-title {
+}
+.main-button {}
+.main-work {
+}
+.main-list {
+}
+.main-about {
+}
+.main-text {
+}
+.main-doing {
+}
+.main-doing-text {
+}
+.main-picture {
+}
+.main-team {
+}
+.main-foto-team {
+}
+.main-name-team {
+}
+.main-profession-team {
+}
+.footer {
+}
+.footer-text {
 }
