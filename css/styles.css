@@ -39,7 +39,6 @@ color: #2E2F42;
 }
 .header-link:hover {
   color: #4D5AE5;
-  text-decoration: underline;
 }
 .head-mail {
 font-family: 'Roboto';
@@ -50,7 +49,6 @@ color: #434455;
 }
 .head-mail:hover {
   color: #4D5AE5;
-  text-decoration: underline;
 }
 .header-tel {
 font-family: 'Roboto';
@@ -61,7 +59,6 @@ color: #434455;
 }
 .header-tel:hover {
   color: #4D5AE5;
-  text-decoration: underline;
 }
 .main {
   background-color: #2E2F42;
@@ -83,6 +80,9 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background: #4D5AE5;
 cursor: pointer;
+}
+.main-button:hover {
+  background-color: #404BBF;
 }
 .main-about {
 font-weight: 500;
@@ -164,4 +164,5 @@ color: #434455;
   background-color: #4D5AE5;
 }
 .portfolio-button:hover {
-  color: #FFFFFF;}
+  color: #FFFFFF;
+}
