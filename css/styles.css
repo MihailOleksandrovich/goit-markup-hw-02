@@ -1,5 +1,5 @@
 .body {
-  font-family: "Roboto"; sans-serif; 
+  font-family: "Roboto",sans-serif
  color: #434455;
 }
 .list {
@@ -9,24 +9,20 @@
   text-decoration: none;
 }
 .header-logo-web{
-font-family: 'Raleway';
+font-family: "Raleway",sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 color: #4D5AE5;
-text-transform: uppercase;
-text-decoration: none;
 letter-spacing: 0.03em;
 }
 .header-logo-studio {
-font-family: 'Raleway';
+font-family: "Raleway",sans-serif
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-text-transform: uppercase;
-text-decoration: none;
 letter-spacing: 0.03em;
 color: #2E2F42;
 }
@@ -41,7 +37,7 @@ color: #2E2F42;
   color: #4D5AE5;
 }
 .head-mail {
-font-family: 'Roboto';
+font-family: "Roboto",sans-serif
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -51,7 +47,7 @@ color: #434455;
   color: #4D5AE5;
 }
 .header-tel {
-font-family: 'Roboto';
+font-family: "Roboto",sans-serif
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -64,7 +60,7 @@ color: #434455;
   background-color: #2E2F42;
 }
 .main-title {
-  font-family: 'Roboto';
+  font-family: "Roboto",sans-serif
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -118,14 +114,14 @@ color: #2E2F42;
   color: #2E2F42;  
 }
 .footer-text {
-  font-family: 'Roboto';
+  font-family: "Roboto",sans-serif
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #F4F4FD;
   }
 .footer-logo-web {
-  font-family: 'Raleway';
+  font-family: "Raleway",sans-serif
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -133,7 +129,7 @@ color: #2E2F42;
   color: #4D5AE5;
 }
 .footer-logo-studio {
-font-family: 'Raleway';
+font-family: "Raleway",sans-serif
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -152,7 +148,7 @@ color: #434455;
   background-color:#2E2F42
 }
 .portfolio-button {
-  font-family: 'Roboto'
+  font-family: "Roboto",sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
