@@ -128,17 +128,17 @@ color: #2E2F42;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4D5AE5;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 .footer-logo-studio {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
+letter-spacing: 0.03em;
 color: #F4F4FD;
 }
 .main-profession-team {
