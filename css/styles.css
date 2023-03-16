@@ -37,9 +37,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.header-link:focus {
-  color: #4D5AE5;
-}
+.header-link:focus,
 .header-link:hover {
   color: #4D5AE5;
 }
