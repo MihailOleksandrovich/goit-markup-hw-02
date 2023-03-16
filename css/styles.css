@@ -1,161 +1,162 @@
 .body {
-  font-family: "Roboto",sans-serif
- color: #434455;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 .list {
   list-style: none;
 }
 .link {
-  color: #2E2F42;
+  color: #2e2f42;
   text-decoration: none;
 }
 /*haeder*/
 .header-logo {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4D5AE5; 
+  color: #4d5ae5;
 }
 .studio-logo {
-font-family: "Raleway",sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #2E2F42;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
 }
-.header-link, {
-  font-family: 'Roboto';
+.header-link {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
-.header-link:focus,
-.header-link:hover {
-  color: #4D5AE5;
+.header-link, .header-mail, .header-tel:focus,
+.header-link, .header-mail, .header-tel:hover {
+  color: #2e2f42;
+  background-color: #404BBF;
 }
 .header-mail,
 .header-tel {
-font-family: "Roboto";
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .main {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 .main-title {
-  font-family: "Roboto",sans-serif
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1,07;
-  color: #FFFFFF;
+  line-height: 1, 07;
+  color: #ffffff;
 }
 .main-button {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #4D5AE5;
-cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
 }
 .main-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .main-about {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .main-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 .main-doing-text {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
 }
 .main-team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .main-our-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: #2E2F42; 
+  color: #2e2f42;
 }
 .main-name-team {
   font-weight: 500;
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;  
+  color: #2e2f42;
 }
 
 .main-profession-team {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .footer {
-  background-color:#2E2F42
+  background-color: #2e2f42;
 }
 .footer-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .portfolio-button {
-  font-family: "Roboto",sans-serif
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
+  color: #4d5ae5;
   cursor: pointer;
 }
 .portfolio-button:hover {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
 .portfolio-button:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-text {
-  font-family: "Roboto",sans-serif
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #F4F4FD;
-  }
+  color: #f4f4fd;
+}
 .footer-logo-web {
-  font-family: "Raleway",sans-serif
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 .footer-logo-studio {
-color: #F4F4FD;
+  color: #f4f4fd;
 }
