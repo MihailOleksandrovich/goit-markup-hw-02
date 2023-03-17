@@ -9,7 +9,7 @@
   color: #2e2f42;
   text-decoration: none;
 }
-/*haeder*/
+/*HEADER*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -45,31 +45,43 @@
   text-decoration: underline;
 }
 /* HERO */
-.main {
-background: #2E2F42;
+.hero {
+  background: #2e2f42;
 }
-.main-text {
+.hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
-.main-button {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-color: #FFFFFF;
-cursor: pointer;
-background-color: #4d5ae5;
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
 }
-.main-button:hover,
-.main-button:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 /* ABOUT US */
-
-
+.main-about {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+.main-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 /* NAVIGATION PAGE PORTFOLIO */
 .portfolio-button {
   font-weight: 500;
@@ -83,4 +95,47 @@ background-color: #4d5ae5;
 .portfolio-button:focus {
   color: #f4f4fd;
   background-color: #4d5ae5;
+}
+.subtitle {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.menu-team {
+  background-color: #F4F4FD;
+}
+.name-team {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.profession-team {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer {
+background-color: #2E2F42;
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+.footer-logo-studio {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
 }
