@@ -110,6 +110,11 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+.menu-team {
+  color: #ffffff;
+  text-align: center;
+
+}
 /* NAVIGATION PAGE PORTFOLIO */
 .portfolio-button {
   font-weight: 500;
