@@ -1,5 +1,12 @@
+:root {
+  --accent-color: #404bbf;
+  --secondery-color: #4d5ae5;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(primary-font);
   color: #434455;
   background-color: #ffffff;
 }
@@ -12,7 +19,7 @@
 }
 /*HEADER*/
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -22,7 +29,7 @@
   color: #4d5ae5;
 }
 .logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -32,7 +39,7 @@
   color: #2e2f42;
 }
 .menu-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -42,7 +49,7 @@
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
   text-decoration: underline;
 }
 /* HERO */
@@ -69,7 +76,7 @@
 .hero-button:hover,
 .hero-button:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--secondery-color)
 }
 /* ABOUT US */
 .main-about {
@@ -146,4 +153,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.not-visibli {
+  visibility: hidden;
 }
