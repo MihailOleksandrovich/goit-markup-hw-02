@@ -63,15 +63,17 @@
 }
 .menu-link-cotact:hover,
 .menu-link-cotact:focus {
-  color: var(--accent-color);
+  color: var(--secondery-color);
   text-decoration: underline;
 }
 /* HERO */
 .hero {
+  font-style: normal;
   background: #2e2f42;
   text-align: center;
 }
 .hero-text {
+  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -98,6 +100,7 @@
 }
 /* ABOUT US */
 .main-about {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -111,9 +114,12 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.menu-team {
+.link-team {
   background-color: #ffffff;
   text-align: center;
+} 
+.list-team {
+  background-color: #ffffff;
 }
 /* NAVIGATION PAGE PORTFOLIO */
 .portfolio-button {
