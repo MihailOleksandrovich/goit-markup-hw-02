@@ -4,9 +4,8 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
-
 .body {
-  font-family: var(primary-font);
+  font-family: var(--primary-font);
   color: #434455;
   background-color: #ffffff;
 }
@@ -86,6 +85,7 @@
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: var(--accent-color);
@@ -113,7 +113,6 @@
 .menu-team {
   color: #ffffff;
   text-align: center;
-
 }
 /* NAVIGATION PAGE PORTFOLIO */
 .portfolio-button {
