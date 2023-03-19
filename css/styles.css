@@ -7,6 +7,7 @@
 .body {
   font-family: var(--primary-font);
   color: #434455;
+  font-style: normal;
   background-color: #ffffff;
 }
 .list {
@@ -111,7 +112,7 @@
   color: #434455;
 }
 .menu-team {
-  color: #ffffff;
+  background-color: #ffffff;
   text-align: center;
 }
 /* NAVIGATION PAGE PORTFOLIO */
