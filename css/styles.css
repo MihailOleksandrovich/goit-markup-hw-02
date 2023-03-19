@@ -1,6 +1,6 @@
 :root {
   --secondery-color: #404bbf;
-  --header-color: #434455:
+  --header-color: #434455;
   --accent-color: #4d5ae5;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -27,7 +27,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .logo-studio {
   font-family: var(--secondary-font);
@@ -60,7 +60,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-color);
 }
 .menu-link-cotact:hover,
 .menu-link-cotact:focus {
@@ -127,14 +127,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--accent-color);
   cursor: pointer;
   background-color: #f4f4fd;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #f4f4fd;
-  background-color: #4d5ae5;
+  background-color: var(--secondery-color);
 }
 .subtitle {
   font-weight: 700;
@@ -178,7 +178,7 @@
   color: #f4f4fd;
 }
 .footer-logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
