@@ -124,20 +124,8 @@
 .list-team {
   background-color: #ffffff;
 }
-/* NAVIGATION PAGE PORTFOLIO */
-.portfolio-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--accent-color);
-  cursor: pointer;
-  background-color: #f4f4fd;
-}
-.portfolio-button:hover,
-.portfolio-button:focus {
-  color: #f4f4fd;
-  background-color: var(--secondery-color);
-}
+
+/* SUBTITLE */
 .subtitle {
   font-weight: 700;
   font-size: 36px;
@@ -153,6 +141,7 @@
 .menu-team {
   background-color: #f4f4fd;
 }
+/* OUR TEAM */
 .name-team {
   font-weight: 500;
   font-size: 20px;
@@ -169,6 +158,7 @@
   text-align: center;
   color: var(--header-color);
 }
+/* FOOTER */
 .footer {
   background-color: #2e2f42;
 }
@@ -189,6 +179,24 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
+/* NOT-VISIBLI */
 .not-visibli {
   visibility: hidden;
+}
+/* NAVIGATION PAGE PORTFOLIO */
+.portfolio-button {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: var(--secondery-color);
 }
