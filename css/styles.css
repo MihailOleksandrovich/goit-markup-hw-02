@@ -6,17 +6,18 @@
   --secondary-font: "Raleway", sans-serif;
   --background-origin: #f4f4fd;
   --primary-color: #ffffff;
+  --portfolio-color: #2e2f42;
 }
 .body {
   font-family: var(--primary-font);
   color: var(--header-color);
-  background-color: #ffffff;
+  background-color: var(--primary-color);
 }
 .list {
   list-style: none;
 }
 .link {
-  color: #2e2f42;
+  color: var(--portfolio-color);
   text-decoration: none;
 }
 /*HEADER*/
@@ -38,7 +39,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 .menu-link {
   font-family: var(--primary-font);
@@ -47,7 +48,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -74,7 +75,7 @@
 /* HERO */
 .hero {
   font-style: normal;
-  background: #2e2f42;
+  background: var(--portfolio-color);
   text-align: center;
 }
 .hero-text {
@@ -84,7 +85,7 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--primary-color);
 }
 .hero-button {
   font-family: var(--primary-font);
@@ -103,14 +104,14 @@
   color: var(--primary-color);
   background-color: var(--secondery-color);
 }
-/* ABOUT US */
+/* ABOUT US LIST WORKS */
 .main-about {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 .main-text {
   font-weight: 400;
@@ -135,13 +136,13 @@
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 .list-works {
   text-align: center;
 }
 .menu-team {
-  background-color: #f4f4fd;
+  background-color: var(--background-origin);
 }
 /* OUR TEAM */
 .name-team {
@@ -150,7 +151,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 .profession-team {
   font-weight: 400;
@@ -162,7 +163,7 @@
 }
 /* FOOTER */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--portfolio-color);
 }
 .footer-text {
   font-weight: 400;
@@ -210,7 +211,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--portfolio-color);
 }
 /* <!-- LIST WORKS --> */
 .link-works {
