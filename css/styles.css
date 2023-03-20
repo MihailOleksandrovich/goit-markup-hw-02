@@ -8,7 +8,6 @@
 .body {
   font-family: var(--primary-font);
   color: var(--header-color);
-  font-style: normal;
   background-color: #ffffff;
 }
 .list {
@@ -52,6 +51,9 @@
 .menu-link:focus {
   color: var(--secondery-color);
   text-decoration: underline;
+}
+.header-adress {
+  font-style: normal;
 }
 .menu-link-cotact {
   font-family: var(--primary-font);
