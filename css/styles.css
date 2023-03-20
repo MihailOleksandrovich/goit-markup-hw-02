@@ -195,28 +195,19 @@
   letter-spacing: 0.04em;
   color: var(--accent-color);
   cursor: pointer;
-  background-color: var()
+  background-color: var();
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--background-origin);
   background-color: var(--secondery-color);
 }
-.main-about{
-font-family: var(--primary-font);
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.main-text {
-font-family: var(--primary-font);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--background-origin);
+.main-about {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
