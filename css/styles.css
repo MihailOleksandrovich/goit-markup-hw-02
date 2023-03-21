@@ -23,7 +23,6 @@
 /*HEADER*/
 .logo {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -32,18 +31,10 @@
   color: var(--accent-color);
 }
 .logo-studio {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--portfolio-color);
 }
 .menu-link {
   font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,7 +51,6 @@
 }
 .menu-link-cotact {
   font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -74,13 +64,10 @@
 }
 /* HERO */
 .hero {
-  font-style: normal;
   background: var(--portfolio-color);
   text-align: center;
 }
 .hero-text {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -89,7 +76,6 @@
 }
 .hero-button {
   font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -106,7 +92,6 @@
 }
 /* ABOUT US LIST WORKS */
 .main-about {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -114,7 +99,6 @@
   color: var(--portfolio-color);
 }
 .main-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -130,7 +114,6 @@
 
 /* SUBTITLE */
 .subtitle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -154,7 +137,6 @@
   color: var(--portfolio-color);
 }
 .profession-team {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -166,7 +148,6 @@
   background-color: var(--portfolio-color);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -174,7 +155,6 @@
 }
 .footer-logo-studio {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -206,7 +186,6 @@
 /* <!-- LIST WORKS --> */
 .main-about {
   font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
